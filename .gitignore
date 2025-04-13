@@ -1,0 +1,22 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
+# Virtual environments
+venv/
+.env
+
+# macOS
+.DS_Store
+
+# MATLAB artifacts
+*.asv
+*.mcr
+*.fig
+*.mat
+*.mex*
+*.log
+
+# Results
+results/*.png
+results/*.gif
