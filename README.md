@@ -4,11 +4,11 @@
 
 A compact yet powerful stereo vision pipeline built around 3D biological data. This project demonstrates depth map generation and 3D surface visualization using stereo pairs extracted from a synthetic Cryo-Electron Microscopy (Cryo-EM) volume.
 
-> 🧠 This is a general idea of the stereo algorithm I'm implementing in my research. Due to confidentiality, I cannot share real UTSW data or code directly. The project is part of an ongoing study on protein structural modeling in Cryo-EM reconstructions.
+> This is a general idea of the stereo algorithm I'm implementing in my research. Due to confidentiality, I cannot share real UTSW data or code directly. The project is part of an ongoing study on protein structural modeling in Cryo-EM reconstructions.
 
 ---
 
-## 🧠 Project Overview
+## Project Overview
 
 This repository walks through:
 
@@ -21,7 +21,7 @@ This repository walks through:
 
 ---
 
-## 📁 Folder Structure
+## Folder Structure
 ```
 StereoDepthProject/
 ├── images/
@@ -39,7 +39,7 @@ StereoDepthProject/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 ### 1. Clone the Repo
 ```bash
@@ -62,7 +62,7 @@ Output images will be saved in the `results/` folder.
 
 ---
 
-## 🖼 Example Outputs
+## Example Outputs
 
 ### Stereo Input Pair
 <p float="left">
@@ -81,7 +81,7 @@ Output images will be saved in the `results/` folder.
 
 ---
 
-## 🧬 Why Cryo-EM + Stereo Vision?
+## Why Cryo-EM + Stereo Vision?
 
 Cryo-EM (Cryogenic Electron Microscopy) is used to capture volumetric scans of biomolecules. By treating adjacent axial slices as left/right views, we can test stereo vision techniques on biomedical data.
 
@@ -89,12 +89,12 @@ This synthetic dataset is inspired by amyloid fibril stacking patterns. In real 
 
 ---
 
-## 🔬 Research Connection
+## Research Connection
 This stereo vision pipeline models a subset of methods I am applying in my current research at UTSW, where I work on neural approaches to Cryo-EM volume interpretation and alignment. Though the research involves real amyloid reconstructions, those datasets remain private. This public-facing version is a faithful conceptual demonstration designed for publication and portfolio purposes, and reflects potential research directions aligned with KAUST’s bioinformatics and computer vision interests.
 
 ---
 
-## 🛠 Tech Stack
+## Tech Stack
 - Python 3.10+
 - OpenCV
 - NumPy
@@ -102,7 +102,7 @@ This stereo vision pipeline models a subset of methods I am applying in my curre
 
 ---
 
-## 🌱 Future Ideas
+## Future Ideas
 - Swap StereoBM with `StereoSGBM` for smoother disparity
 - Apply to real EMPIAR or RELION-aligned stacks
 - Integrate with segmentation or refinement networks
@@ -111,13 +111,13 @@ This stereo vision pipeline models a subset of methods I am applying in my curre
 
 ---
 
-## 👩🏽‍💻 Built By
+## Built By
 **Soli Ateefa**  
 Biomedical + AI Enthusiast · CS Honors @ UTA  
 [LinkedIn](https://www.linkedin.com/in/sateefa2904/) • [Portfolio](https://sateefa2904.github.io)
 
 ---
 
-## 🧪 License
+## License
 This project is for educational and demo purposes. All Cryo-EM simulations used are synthetic and freely shareable.
 
